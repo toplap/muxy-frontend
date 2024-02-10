@@ -34,8 +34,8 @@ function EventHeader({event, reservedStreamCount, totalStreamCount}:Props): Reac
             <h4>TOPLAP Presents ...</h4>
             <h1>TOPLAP20 Live Stream</h1>
             <h2> {event && DateTime.fromISO(event.starts_at).toFormat("dd. LLLL HH:mm")} - {event && DateTime.fromISO(event.ends_at).toFormat("dd. LLLL HH:mm")} {event && DateTime.fromISO(event.starts_at).toFormat("yyyy")}</h2>
-             This is event is not yet open for registration.
-             <br>Slot registration opens Friday, Feb 16th. </br>
+             <b>Note:</b> This event is not yet open for registration.
+             Slot registration opens Friday, Feb 16th.
             <hr/>
 
             <ProgressBar
