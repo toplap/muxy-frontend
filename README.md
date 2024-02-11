@@ -1,6 +1,8 @@
 # muxy-frontend
 Frontend for stream performance registration
 
+**NOTE: Check out latest version at https://github.com/eulerroom/eulerroom-live-web**
+
 ## Development Environment Variables Setup
 1. Create file `.env.local`
 2. Add the following variables:
